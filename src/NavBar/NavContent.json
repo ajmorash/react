@@ -1,0 +1,14 @@
+{
+  "Tiles":[{
+      "title": "Home",
+      "page": "/"
+    },{
+      "title": "Music",
+      "page": "/ImageGallery"
+    },
+    {
+      "title" : "Kazoos",
+      "page": "/Shop"
+    }
+  ]
+}

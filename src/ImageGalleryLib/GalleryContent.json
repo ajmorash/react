@@ -1,0 +1,28 @@
+{
+  "Tiles": [{
+    "type": "Image",
+    "content": "http://placekitten.com/200/300",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit in felis sed tempor. Suspendisse sagittis ipsum nibh, vitae tincidunt augue venenatis sit amet. Sed id dapibus dolor. Vestibulum eget elementum neque, varius efficitur ante. Sed bibendum quam turpis, vitae finibus nisi feugiat ac. Curabitur felis arcu, ullamcorper non justo id, blandit eleifend eros. Donec efficitur, augue et rhoncus convallis, augue turpis placerat purus, at ornare ex ante eget erat.",
+    "side": "right",
+    "hyperlink": ""
+  },{
+    "type": "Image",
+    "content": "http://placekitten.com/500/600",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit in felis sed tempor. Suspendisse sagittis ipsum nibh, vitae tincidunt augue venenatis sit amet. Sed id dapibus dolor. Vestibulum eget elementum neque, varius efficitur ante. Sed bibendum quam turpis, vitae finibus nisi feugiat ac. Curabitur felis arcu, ullamcorper non justo id, blandit eleifend eros. Donec efficitur, augue et rhoncus convallis, augue turpis placerat purus, at ornare ex ante eget erat.",
+    "side": "left",
+    "hyperlink": ""
+  },{
+    "type": "Video",
+    "content": "https://www.youtube.com/embed/HDQdLvme96k",
+    "text": "",
+    "side": "",
+    "hyperlink": ""
+  },{
+    "type": "Video",
+    "content": "https://www.youtube.com/embed/HDQdLvme96k",
+    "text": "",
+    "side": "",
+    "hyperlink": ""
+  }
+]
+}
