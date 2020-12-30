@@ -15,7 +15,7 @@ class App extends Component {
   render(){
     return (
       <HashRouter>
-        <div>
+        <div className = "page-container">
           <NavBar />
           <div className = 'content'>
             <Route exact path="/" component={Home} />

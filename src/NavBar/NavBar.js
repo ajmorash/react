@@ -14,9 +14,9 @@ export class NavBar extends React.Component {
     const content = []
 
     for (const [index, value] of this.state.Tiles.entries()) {
-        content.push(
-          <NavTile title={value.title} page={value.page} />
-        )
+          content.push(
+            <NavTile title={value.title} page={value.page} />
+          )
     }
 
     return(

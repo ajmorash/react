@@ -1,7 +1,27 @@
 .nav-bar{
-  display: inline;
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+  width: 100%;
+  background-color: black;
 }
 .nav-tile{
-  display:inline;
-  padding-right: 10px;
+  display:inline-block;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-tile:hover{
+  background-color: gray;
+}
+.active{
+  background-color: white;
+}
+.nav-tile a{
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
 }

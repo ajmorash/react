@@ -1,5 +1,5 @@
 *{
-  background-color: #212121;
+
 }
 
 .image-tile{
@@ -29,7 +29,8 @@
   vertical-align: middle;
 }
 .content-tile{
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
+  background-color: #1a1a1a;
 }
 .video-container {
     position: relative;
