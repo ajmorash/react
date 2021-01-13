@@ -9,6 +9,10 @@
     {
       "title" : "Kazoos",
       "page": "/Shop"
+    },
+    {
+      "title" : "Ecwid Shop",
+      "page": "/ShopEcwid"
     }
   ]
 }

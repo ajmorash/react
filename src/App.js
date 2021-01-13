@@ -7,8 +7,9 @@ import{
 } from 'react-router-dom';
 import {ImageGallery} from './ImageGalleryLib/ImageGallery.js';
 import {NavBar} from './NavBar/NavBar.js';
-import {Shop} from './Shop/Shop.js';
+import Shop from './Shop/Shop.js';
 import {Home} from './Home';
+import ShopEcwid from './ShopEcwid/ShopEcwid.js';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/ImageGallery" component={ImageGallery} />
             <Route path="/Shop" component={Shop} />
+            <Route path="/ShopEcwid" component={ShopEcwid} />
           </div>
         </div>
       </HashRouter>

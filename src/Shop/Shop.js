@@ -1,12 +1,22 @@
-import React, {Component} from 'react';
+import React, { useState } from "react";
+import ShopTile from './ShopTile.js';
 
-export class Shop extends React.Component {
+function Shop(){
+  const [total, setTotal] = useState(0);
 
-  render(){
+  const getPriceFromTile = (PriceData) => {
+    setTotal(PriceData);
+  }
+
     return (
-      <div className = "shop" >
-        <h2>This is a Shop</h2>
+      <div>
+        <div className = "shop-total" >
+          {total}
+        </div>
+        <ShopTile passPriceToShop = {getPriceFromTile} />
+        <ShopTile passPriceToShop = {getPriceFromTile} />
       </div>
     )
-  }
 }
+
+export default Shop;
