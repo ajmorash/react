@@ -1,0 +1,85 @@
+.shop-container{
+  display:inline-flex;
+  float: left;
+  background-color: #FFFFFF;
+}
+.shop-column-1{
+  width: 60%;
+}
+.shop-column-2{
+  width: 40%;
+  background-color: #DDDDDD;
+}
+.shop-tiles-container{
+  display: inline-block;
+  background-color: #FFFFFF;
+}
+.shop-totals{
+  background-color: #FFFFFF;
+  width: 300px;
+  border: solid;
+  border-color: #555555;
+  padding: 5px;
+  font-family: arial;
+  font-size: 30px;
+}
+.shop-tile{
+  display: inline-block;
+  padding: 10px 2px;
+  margin: 5px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border: solid;
+  border-color: #555555;
+  width: 270px;
+}
+.shop-tile-count{
+  width: 15%;
+  text-align: center;
+  border: none;
+  font-family: Arial;
+  font-size: 20px;
+}
+.shop-tile-changer{
+  width: 60px;
+  height: 60px;
+  font-family: Arial;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.shop-tile-plus{
+  margin-left: 30px;
+}
+.shop-tile-minus{
+  margin-right: 30px;
+}
+.shop-tile-name{
+  padding-left: 10px;
+  text-align: left;
+  font-family: Arial;
+  font-size: 20px;
+  color: #555555
+}
+.shop-totals-container{
+  display: inline-flex;
+}
+.cart-title{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.cart-item-row{
+  margin-bottom: 20px;
+}
+.cart-col{
+  display:inline-block;
+  width: 25%;
+}
+.cart-total{
+  color: #333333;
+  font-size: 30px;
+  text-align: center;
+}
+.submit-order-button{
+  align-self: center;
+}

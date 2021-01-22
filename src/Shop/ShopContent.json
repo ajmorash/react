@@ -1,0 +1,22 @@
+{
+  "Tiles":[{
+    "name": "Kazoo",
+    "price": 5,
+    "image": "http://placekitten.com/225/225"
+  },
+  {
+    "name": "Second Kazoo",
+    "price": 10,
+    "image": "http://placekitten.com/225/225"
+  },
+  {
+    "name": "Third Kazoo",
+    "price": 40,
+    "image": "http://placekitten.com/225/225"
+  },
+  {
+    "name": "fourth Kazoo",
+    "price": 13.98,
+    "image": "http://placekitten.com/225/225"
+  }]
+}
